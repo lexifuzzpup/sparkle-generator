@@ -1,3 +1,7 @@
+body {
+    font: 1rem sans-serif;
+}
+
 #options {
     list-style: none;
     display: grid;
@@ -19,5 +23,8 @@
             height: 1rem;
         }
     }
+}
 
+code {
+    font: inherit;
 }
