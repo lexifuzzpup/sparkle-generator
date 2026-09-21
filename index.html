@@ -10,8 +10,11 @@
 </head>
 
 <body>
-    <textarea id="sparkles" rows="16" cols="64" style="resize: none;"></textarea>
-    <button id="generate-btn" style="display: block;">generate sparkle</button>
+    <button id="generate-btn" style="display: block;">next seed !</button>
+    <div style="display: grid; grid-template-columns: max-content 1fr; grid-template-rows: 1fr; width: 100%; height: 100%;">
+        <ul id="options" style="user-select: none;"></ul>
+        <code id="sparkles" style="display: flex; flex-direction: column; border: 1px solid currentColor;"></code>
+    </div>
 
     <script type="module" src="/src/main.ts"></script>
 </body>
